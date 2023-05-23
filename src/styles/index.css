@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+#root {
+    background-color: var(--black);
+    padding: 2rem 1.5rem;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --black: #0C0C0C;
+    --white: #FFF;
+    --brand: #6880FF;
+    --brand-hover: #7C91FF;
+
+
+    --title-1-48px: 700 3rem 'Inter', sans-serif;
+    --title-1-42px: 700 2.675rem 'Inter', sans-serif;
+    --title-2-40px: 700 2.5rem 'Inter', sans-serif;
+    --title-2-36px: 700 2.25rem 'Inter', sans-serif;
+    --title-3: 700 1.375rem 'Inter', sans-serif;
+    --link: 700 1rem 'Inter', sans-serif;
+    --Paragraph: 400 1rem 'Inter', sans-serif;
+}

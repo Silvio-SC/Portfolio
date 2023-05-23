@@ -1,4 +1,7 @@
-import { Header } from './components/header/index.jsx'
+import './styles/reset.css';
+import './styles/index.css';
+import { Header } from './components/header';
+import { Footer } from './components/footer';
 
 function App() {
   return (
@@ -31,13 +34,7 @@ function App() {
           </div>
         </section>
       </main>
-      <footer>
-        <div>
-          <h2>Contato</h2>
-          <p></p>
-        </div>
-        <p></p>
-      </footer>
+      <Footer />
     </>
   )
 }

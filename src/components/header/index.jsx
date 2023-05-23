@@ -1,4 +1,5 @@
-import styles from './styles.module.css'
+import { Button } from '../component/button';
+import styles from './styles.module.css';
 
 export const Header = () => {
     return (
@@ -9,7 +10,7 @@ export const Header = () => {
             <li>Stack</li>
             <li>Projetos</li>
           </ul>
-          <button>Contato</button>
+          <Button />
         </header>
     )
 }

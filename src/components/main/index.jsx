@@ -1,6 +1,6 @@
 
-const Main = ({childrens}) => {
-    <main className="main">
-
-    </main>
+export const Main = ({children}) => {
+    return (
+        <main className="main">{children}</main>
+    )
 }

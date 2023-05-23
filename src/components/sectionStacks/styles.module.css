@@ -1,0 +1,17 @@
+.stacksSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    padding: 1rem 0;
+}
+
+.stacksSection > h2{
+    font: var(--title-2-36px);
+}
+
+.stacksSection > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}

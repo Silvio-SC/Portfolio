@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 
-export const Button = () => {
+export const Button = ({text}) => {
     return (
-        <button className={styles.button}>Contato</button>
+        <button className={styles.button}>{text}</button>
     )
 }

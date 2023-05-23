@@ -1,0 +1,27 @@
+.bannerSection {
+    display: flex;
+    flex-direction: column;
+    gap: 0.675rem;
+
+    margin-right: 2rem;
+}
+
+.bannerSection img {
+    margin: 3rem 0 0 0;
+}
+
+.bannerSection h3 {
+    font: var(--Paragraph);
+    color: var(--brand);
+}
+
+.bannerSection > div > h2{
+    font: var(--title-1-42px);
+}
+
+.bannerSection > div > p{
+    margin: 2.5rem 0;
+}
+
+
+

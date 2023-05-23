@@ -10,7 +10,7 @@ export const Header = () => {
             <li>Stack</li>
             <li>Projetos</li>
           </ul>
-          <Button />
+          <Button text="Contato" />
         </header>
     )
 }

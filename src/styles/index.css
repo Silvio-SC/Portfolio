@@ -5,11 +5,13 @@
     padding: 2rem 1.5rem;
     color: #fff;
     font-family: 'Inter', sans-serif;
+    line-height: 150%;
 }
 
 :root {
     --black: #0C0C0C;
     --white: #FFF;
+    --white-60: #FFFFFF60;
     --brand: #6880FF;
     --brand-hover: #7C91FF;
 

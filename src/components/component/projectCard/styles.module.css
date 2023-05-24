@@ -37,12 +37,26 @@
     font: var(--Paragraph);
 }
 
-.card > div > a{
+a {
     font: var(--link);
     color: var(--brand);
+    text-decoration: none;
 }
 
-.card > div > a:hover{
+a:hover {
     color: var(--brand-hover);
     text-decoration: underline;
+}
+
+
+@media screen and (min-width: 768px){
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .card {
+        width: 40%;
+    }
 }

@@ -24,4 +24,40 @@
 }
 
 
+@media screen and (min-width: 768px){
+    .bannerSection {
+        padding: 3rem 0 0 0;
+        gap: 2rem;
+    }
+}
 
+@media screen and (min-width: 1024px){
+    .bannerSection {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem 0 0 0;
+    }
+    .bannerSection div{
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+    }
+    .bannerSection > div > button{
+        align-self: start;
+    }
+
+    .bannerSection img {
+        width: 50%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .bannerSection > div > h2{
+        font: var(--title-1-48px);
+    }
+    
+    .bannerSection img {
+        width: 100%;
+    }
+}

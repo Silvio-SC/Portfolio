@@ -1,3 +1,4 @@
+import { user } from '../../data/user.js'
 import styles from './styles.module.css'
 
 export const Footer = () => {
@@ -11,7 +12,7 @@ export const Footer = () => {
             <a href='#'><img src="./src/assets/github-icon.png" alt="" /></a>
           </div>
         </div>
-        <p>Todos os direitos reservados - José da Silva</p>
+        <p>Todos os direitos reservados - {user}</p>
       </footer>
     )
 }

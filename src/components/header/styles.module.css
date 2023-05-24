@@ -25,3 +25,13 @@ ul {
 li {
     font: var(--Paragraph);
 }
+
+@media screen and (min-width: 768px){
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    ul {
+        justify-content: space-evenly;
+    }   
+}

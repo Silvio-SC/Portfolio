@@ -6,9 +6,9 @@ export const Header = () => {
         <header className = {styles.header}>
           <h1>Portifólio</h1>
           <ul>
-            <li>Sobre</li>
-            <li>Stack</li>
-            <li>Projetos</li>
+            <li><a href='.sectionAboutMe'>Sobre</a></li>
+            <li><a href='.stacksSection'>Stack</a></li>
+            <li><a href='.sectionProjects'>Projetos</a></li>
           </ul>
           <Button text="Contato" />
         </header>

@@ -10,7 +10,7 @@ export const ProjectCard = ({name, descricao}) => {
                 </div>
                 <a href="#" target='__blanck'>Saiba mais</a>
             </div>
-            <img src="./src/assets/git-icon.png" alt="icone do Github" />
+            <img src="../assets/git-icon.png" alt="icone do Github" />
         </div>
     )
 }

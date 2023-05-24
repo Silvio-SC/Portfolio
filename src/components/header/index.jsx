@@ -6,11 +6,11 @@ export const Header = () => {
         <header className = {styles.header}>
           <h1>Portifólio</h1>
           <ul>
-            <li><a href='.sectionAboutMe'>Sobre</a></li>
-            <li><a href='.stacksSection'>Stack</a></li>
-            <li><a href='.sectionProjects'>Projetos</a></li>
+            <li><a href='#sectionAboutMe'>Sobre</a></li>
+            <li><a href='#stacksSection'>Stack</a></li>
+            <li><a href='#sectionProjects'>Projetos</a></li>
           </ul>
-          <Button text="Contato" />
+          <Button text="Contato" link="#footer"/>
         </header>
     )
 }

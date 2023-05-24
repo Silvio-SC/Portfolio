@@ -1,6 +1,7 @@
 import { Button } from "../component/button"
 import styles from './styles.module.css'
 import { username } from '../../data/user.js'
+import bannerImg from "../../assets/banner-img.png";
 
 export const BannerSection = () => {
     return (
@@ -11,7 +12,7 @@ export const BannerSection = () => {
                 <p>Uma frase interessante sobre mim</p>
                 <Button text='Saiba mais'/>
             </div>
-            <img src="./src/assets/banner-img.png" alt="" />
+            <img src={bannerImg} alt="" />
         </section>
     )
 }

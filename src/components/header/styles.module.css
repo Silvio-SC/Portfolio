@@ -9,21 +9,25 @@
     
     
     background-color: var(--black);
-    padding-bottom: 1.5rem;
 }
 
-h1 {
+.header h1 {
     font: var(--title-3)
 }
 
-ul {
+.header ul {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
 
-li {
+.header li a {
     font: var(--Paragraph);
+    color: var(--white);
+
+}
+.header li a:hover {
+    color: var(--brand-hover);
 }
 
 @media screen and (min-width: 768px){
@@ -31,7 +35,7 @@ li {
         flex-direction: row;
         justify-content: space-between;
     }
-    ul {
+    .header ul {
         justify-content: space-evenly;
     }   
 }

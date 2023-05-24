@@ -10,3 +10,7 @@
 .button:hover {
     background-color: var(--brand-hover);
 }
+
+.button a {
+    color: var(--white);
+}

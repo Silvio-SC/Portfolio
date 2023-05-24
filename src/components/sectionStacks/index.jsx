@@ -10,7 +10,7 @@ export const StacksSection = () => {
     })
 
     return (
-        <section className={styles.stacksSection}>
+        <section className={styles.stacksSection} id='stacksSection'>
             <h2>Tecnologias</h2>
             <div>
                 {cards}

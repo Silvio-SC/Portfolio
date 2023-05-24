@@ -10,7 +10,7 @@ export const SectionProjects = () => {
     })
 
     return (
-        <section className={styles.sectionProjects}>
+        <section className={styles.sectionProjects} id='sectionProjects'>
           <h2>projetos</h2>
           <div>
             {cards}

@@ -9,7 +9,7 @@ export const BannerSection = () => {
             <div>
                 <h3>{username}</h3>
                 <h2>Bem vindo ao meu portfólio</h2>
-                <p>Uma frase interessante sobre mim</p>
+                <p>Só quem se arrisca a ir longe demais descobre o quão longe se pode ir. - T.S. Elliot</p>
                 <Button text='Saiba mais'/>
             </div>
             <img src={bannerImg} alt="" />

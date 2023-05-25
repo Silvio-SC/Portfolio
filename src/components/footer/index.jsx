@@ -10,9 +10,9 @@ export const Footer = () => {
         <div>
           <h2>Contato</h2>
           <div>
-            <a href='#'><img src={whatsapp} alt="icon do whatsapp" /></a>
-            <a href='#'><img src={linkedin} alt="icone do linkedin" /></a>
-            <a href='#'><img src={github} alt="icone do github" /></a>
+            <a><img src={whatsapp} alt="icon do whatsapp" /></a>
+            <a href='https://www.linkedin.com/in/silvio-f-s/' target='__blank'><img src={linkedin} alt="icone do linkedin" /></a>
+            <a href='https://github.com/Silvio-SC' target='__blank'><img src={github} alt="icone do github" /></a>
           </div>
         </div>
         <p>Todos os direitos reservados - {user}</p>

@@ -6,6 +6,7 @@
 
 .sectionAboutMe h2{
     font: var(--title-2-36px);
+    min-width: 13rem;
 }
 
 .sectionAboutMe p{

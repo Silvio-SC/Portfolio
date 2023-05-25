@@ -1,5 +1,5 @@
 import { projects } from '../../data/projects'
-import { ProjectCard } from '../component/projectCard'
+import { ProjectCard } from '../projectCard'
 import styles from './styles.module.css'
 
 export const SectionProjects = () => {

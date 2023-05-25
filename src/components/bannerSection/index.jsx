@@ -1,4 +1,4 @@
-import { Button } from "../component/button"
+import { Button } from "../button"
 import styles from './styles.module.css'
 import { username } from '../../data/user.js'
 import bannerImg from "../../assets/banner-img.png";

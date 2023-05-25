@@ -1,4 +1,4 @@
-import { TechCard } from '../component/techCard'
+import { TechCard } from '../techCard'
 import styles from './styles.module.css'
 import { technologies } from '../../data/technologies.js'
 

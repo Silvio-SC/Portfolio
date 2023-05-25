@@ -1,4 +1,4 @@
-import { Button } from '../component/button';
+import { Button } from '../button';
 import styles from './styles.module.css';
 
 export const Header = () => {

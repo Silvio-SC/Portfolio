@@ -18,11 +18,11 @@ export const TechCard = ({name, img, color}) => {
     }
 
     return (
-        <div className={styles.card} 
+        <div  key={name}
+        className={styles.card} 
         style={border}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-
         >
             <img src={img} alt="icone"/>
             <h3>{name}</h3>

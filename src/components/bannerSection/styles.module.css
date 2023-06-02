@@ -6,7 +6,7 @@
     margin-right: 2rem;
 }
 
-.bannerSection img {
+.bannerSection > img {
     margin: 3rem 0 0 0;
 }
 
@@ -20,9 +20,8 @@
 }
 
 .bannerSection > div > p{
-    margin: 2.5rem 0;
+    margin: 1.5rem 0;
 }
-
 
 @media screen and (min-width: 768px){
     .bannerSection {
@@ -37,7 +36,7 @@
         justify-content: space-between;
         padding: 3rem 0 0 0;
     }
-    .bannerSection div{
+    .bannerSection > div{
         display: flex;
         flex-direction: column;
         gap: .75rem;
@@ -46,7 +45,7 @@
         align-self: start;
     }
 
-    .bannerSection img {
+    .bannerSection > img {
         width: 50%;
         margin: 0;
     }

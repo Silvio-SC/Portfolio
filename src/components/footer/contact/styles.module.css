@@ -1,0 +1,9 @@
+
+.contact{
+    display: flex;
+    gap: 1rem;
+}
+
+.contact a {
+    width: 1.25rem;
+}

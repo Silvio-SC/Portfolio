@@ -1,6 +1,6 @@
 .card {
-    padding: 1.5rem 1.75rem;
-    border: 1px solid var(--white-60);
+    padding: 1.25rem 1.5rem;
+    border: 2px solid var(--white-60);
     border-radius: 1.5rem;
 
     display: flex;
@@ -18,7 +18,7 @@
 
 .card img{
     width: 3rem;
-    filter: grayscale(100%);
+    filter: grayscale(80%);
 }
 
 .card:hover img{

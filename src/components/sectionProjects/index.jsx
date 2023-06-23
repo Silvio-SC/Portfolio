@@ -7,7 +7,13 @@ export const SectionProjects = () => {
         <section className={styles.sectionProjects} id='sectionProjects'>
           <h2>projetos</h2>
           <div>
-          {projects.map((card) => <ProjectCard key={card.name} name={card.name} descricao={card.descricao} link={card.link} />)}
+          {projects.map((card) => 
+            <ProjectCard key={card.name} 
+              name={card.name} 
+              descricao={card.descricao} 
+              link={card.link} 
+              tecnologias={card.tech}
+              />)}
           </div>
         </section>
     )

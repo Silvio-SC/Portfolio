@@ -1,9 +1,9 @@
 import styles from './styles.module.css'
 
-export const Button = ({text, link}) => {
+export const Button = ({text}) => {
     return (
         <button className={styles.button}>
-            <a href={link}>{text}</a>
+            {text}
         </button>
     )
 }

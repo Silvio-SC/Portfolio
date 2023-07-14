@@ -17,6 +17,7 @@ export const SectionProjects = () => {
               img={card.img}
               />)}
           </div>
+          <a href='https://github.com/Silvio-SC' target='_blank'>Ver todos os projetos no github </a>
         </section>
     )
 }

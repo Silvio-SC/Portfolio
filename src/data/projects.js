@@ -19,7 +19,7 @@ export const projects = [
     repositorio: "https://github.com/Silvio-SC/kenzie-hub",
     site: "https://kenziehub-dusky.vercel.app/",
     tech: [htmlIcon, cssIcon, jsIcon, reactIcon, styledIcon],
-    img: imgEcommerce,
+    img: imgKenzieHub,
   },
   {
     name: "Kenzie Empresas",
@@ -35,7 +35,7 @@ export const projects = [
     repositorio: "https://github.com/Silvio-SC/M1-Ecommerce_Silvio_SC",
     site: "https://m1-ecommerce-silvio-sc.vercel.app/",
     tech: [htmlIcon, cssIcon, jsIcon],
-    img: imgKenzieHub,
+    img: imgEcommerce,
   },
   {
     name: "Hamburgueria Kenzie",

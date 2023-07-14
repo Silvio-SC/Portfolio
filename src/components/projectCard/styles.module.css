@@ -4,16 +4,24 @@
     gap: 0.5rem;
 
     padding: 1.5rem 1.75rem;
-    border: 1px solid var(--white-60);
-    border-radius: 1.5rem;
+    border: 2px solid var(--white-60);
+    border-radius: 1rem;
+
+    flex-direction: column;
 }
 
+.card span {
+    color: var(--brand) ;
+}
 .card:hover {
-    border-color: var(--white);
+    border-color: var(--brand);
 }
 
-.card img {
-    height: 2rem;
+.card > img {
+    width: 100%;
+    height: max-content;
+    filter: grayscale(80%);
+    display: none;
 }
 
 .card > div{
@@ -55,21 +63,34 @@
 
 .card ul li img {
     filter: grayscale(80%);
+    width: clamp(40px, 3vw, 50px);
 }
 
-.card:hover ul li img {
+.card:hover img {
     filter: grayscale(0%);
 }
+
 
 
 @media screen and (min-width: 768px){
     .card {
         width: 100%;
+        flex-direction: row;
+    }
+
+    .card > img {
+        width: 50%;
+        max-height: 275px;
+        align-self: center;
+    }
+
+    .card > div {
+        width: 50%;
     }
 }
 
-@media screen and (min-width: 1024px){
-    .card {
-        width: 40%;
+@media screen and (min-width: 425px){
+    .card > img {
+        display: block;
     }
 }

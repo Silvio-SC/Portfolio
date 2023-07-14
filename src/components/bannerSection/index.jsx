@@ -9,7 +9,7 @@ export const BannerSection = () => {
             <div>
                 <h3>{username}</h3>
                 <h2>Programador Front-End </h2>
-                <p>Tenho 21 anos, moro no Rio de Janeiro (RJ). Estudo programação a 6 meses</p>
+                <p>Tenho 22 anos, moro no Rio de Janeiro (RJ). Estudo programação a 8 meses</p>
                 <Contact />
             </div>
             <img src={bannerImg} alt="" />

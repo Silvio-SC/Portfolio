@@ -14,12 +14,12 @@ export const TechCard = ({name, img, color}) => {
     };
     
     let border = {
-        borderColor: isHover ? color : '#00000080',
+        color: isHover ? color : '#000',
     }
 
     return (
         <div  key={name}
-        className={styles.card} 
+        className={styles.cardNew} 
         style={border}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}

@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 import gitICon from "../../assets/github-icon-2.png";
 
-export const ProjectCard = ({name, descricao, link, tecnologias}) => {
+export const ProjectCard = ({name, descricao, repositorio, site, tecnologias, img}) => {
 
     return (
         <div className={styles.card}>
@@ -13,9 +13,14 @@ export const ProjectCard = ({name, descricao, link, tecnologias}) => {
                 <ul>
                     {tecnologias.map((tech) => <li key={tech}><img src={tech} /></li>)}
                 </ul>
-                <a href={link} target='__blanck'>Saiba mais</a>
+                <span>
+                    <a href={repositorio} target='__blanck'>Repositorio</a>       
+                    {site ? <span> - </span> : null}
+                    {site ? <a href={site} target='__blanck'>site</a> : null}
+                </span>
             </div>
-            <img src={gitICon} alt="icone do Github" />
+            <img src={img} alt="icone do Github" />
+
         </div>
     )
 }

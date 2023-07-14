@@ -11,8 +11,10 @@ export const SectionProjects = () => {
             <ProjectCard key={card.name} 
               name={card.name} 
               descricao={card.descricao} 
-              link={card.link} 
+              repositorio={card.repositorio} 
+              site={card.site} 
               tecnologias={card.tech}
+              img={card.img}
               />)}
           </div>
         </section>

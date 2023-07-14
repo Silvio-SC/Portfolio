@@ -10,7 +10,8 @@
 
 .stacksSection > div{
     display: flex;
+    justify-content: center;
     flex-direction: row;
-        flex-wrap: wrap;
-        gap: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }

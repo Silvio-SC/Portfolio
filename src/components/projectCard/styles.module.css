@@ -62,15 +62,8 @@
 }
 
 .card ul li img {
-    filter: grayscale(80%);
     width: clamp(40px, 3vw, 50px);
 }
-
-.card:hover img {
-    filter: grayscale(0%);
-}
-
-
 
 @media screen and (min-width: 768px){
     .card {
@@ -86,6 +79,14 @@
 
     .card > div {
         width: 50%;
+    }
+
+    .card ul li img {
+        filter: grayscale(80%);
+    }
+    
+    .card:hover img {
+        filter: grayscale(0%);
     }
 }
 

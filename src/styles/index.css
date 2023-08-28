@@ -1,33 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 #root {
-    background-color: var(--black);
+    background-image: url(../assets/background.png);
+    background-size: 400%;
+    background-repeat: no-repeat;
+    background-color: #2E112D;
     padding: 2rem 1.5rem;
+    padding-top: 0;
     color: var(--white);
     font-family: 'Inter', sans-serif;
     line-height: 150%;
 }
 
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #b32338 #2e112d;
+  }
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #2e112d;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #b32338;
+    border-radius: 20px;
+    border: 3px solid #2e112d;
+  }
+
 :root {
-    --black: #fff;
+    /* --black: #fff;
     --white: #0C0C0C;
-    --white-60: #00000090;
+    --white-60: #00000090; */
 
-    /* --black: #0C0C0C;
+    --black: #0C0C0C;
     --white: #FFF;
-    --white-60: #FFFFFF60; */
+    --white-60: #FFFFFF60;
+    --brand-80: #F6674580;
 
-    --brand: #6880FF;
-    --brand-hover: #7C91FF;
+    --brown: rgb(46, 17, 45);
+    --brand: #F66745;
+    --brand-hover: #B32338;
 
 
-    --title-1-48px: 700 3rem 'Inter', sans-serif;
-    --title-1-42px: 700 2.675rem 'Inter', sans-serif;
-    --title-2-40px: 700 2.5rem 'Inter', sans-serif;
-    --title-2-36px: 700 2.25rem 'Inter', sans-serif;
-    --title-3: 700 1.375rem 'Inter', sans-serif;
+    --title-1-48px: 700 clamp(1rem, 10vw, 3rem) 'Inter', sans-serif;
+    --title-1-42px: 700 clamp(1rem, 10vw, 2.675rem) 'Inter', sans-serif;
+    --title-2-40px: 700 clamp(1rem, 9vw, 2.5rem) 'Inter', sans-serif;
+    --title-2-36px: 700 clamp(1rem, 8vw, 2.25rem) 'Inter', sans-serif;
+    --title-3: 700 clamp(1rem, 7vw, 1.375rem) 'Inter', sans-serif;
     --link: 700 1rem 'Inter', sans-serif;
-    --Paragraph: 400 1rem 'Inter', sans-serif;
+    --Paragraph: 400 clamp(0.75rem, 5vw, 1rem) 'Inter', sans-serif;
 }
 
 :root .darkMode {
@@ -37,9 +61,24 @@
     --brand: #6880FF;
     --brand-hover: #7C91FF;
 }
+@media screen and (min-width: 425px){
+    #root {
+        background-size: 250%;
+    } 
+}
 
 @media screen and (min-width: 768px){
     #root {
         padding: 2rem 15%;
+        padding-top: 0;
+        background-size: 150%;
+    } 
+}
+
+@media screen and (min-width: 1024px){
+    #root {
+        padding: 2rem 15%;
+        padding-top: 0;
+        background-size: 120%;
     } 
 }

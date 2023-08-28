@@ -1,7 +1,7 @@
 .sectionProjects {
     display: flex;
     flex-direction: column;
-
+    text-align: center;
     gap: 2rem;
 }
 
@@ -31,5 +31,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 1rem;
+        justify-content: space-evenly;
     }
 }

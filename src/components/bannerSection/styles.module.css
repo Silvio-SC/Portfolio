@@ -2,25 +2,22 @@
     display: flex;
     flex-direction: column;
     gap: 0.675rem;
-
-    margin-right: 2rem;
-}
-
-.bannerSection > img {
-    margin: 3rem 0 0 0;
 }
 
 .bannerSection h3 {
     font: var(--Paragraph);
-    color: var(--brand);
+    color: var(--brand-hover);
 }
 
 .bannerSection > div > h2{
     font: var(--title-1-42px);
+    color: var(--brown)
 }
 
 .bannerSection > div > p{
     margin: 1.5rem 0;
+    font: var(--Paragraph);
+    color: var(--brown)
 }
 
 @media screen and (min-width: 768px){
@@ -35,6 +32,8 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 3rem 0 0 0;
+
+        margin-right: 45%;
     }
     .bannerSection > div{
         display: flex;
@@ -43,12 +42,6 @@
     }
     .bannerSection > div > button{
         align-self: start;
-    }
-
-    .bannerSection > img {
-        width: 70%;
-        max-width: 600px;
-        margin: 0;
     }
 }
 

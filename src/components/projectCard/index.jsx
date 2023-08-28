@@ -5,7 +5,7 @@ export const ProjectCard = ({name, descricao, repositorio, site, tecnologias, im
 
     return (
         <div className={styles.card}>
-            <div>
+            <div className={styles.cardDescription}>
                 <div>
                     <h3>{name}</h3>
                     <p>{descricao}</p>
@@ -19,8 +19,9 @@ export const ProjectCard = ({name, descricao, repositorio, site, tecnologias, im
                     {site ? <a href={site} target='__blanck'>site</a> : null}
                 </span>
             </div>
-            <img src={img} alt="icone do Github" />
-
+            <div className={styles.cardImg}>
+                <img src={img} alt="icone do Github" />
+            </div>
         </div>
     )
 }

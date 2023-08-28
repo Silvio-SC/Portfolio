@@ -8,11 +8,10 @@ export const BannerSection = () => {
         <section className={styles.bannerSection}>
             <div>
                 <h3>{username}</h3>
-                <h2>Programador Front-End </h2>
-                <p>Tenho 22 anos, moro no Rio de Janeiro (RJ). Estudo programação a 8 meses</p>
+                <h2>Desenvolvedor Web</h2>
+                <p>Seja bem vindo ao meu portfolio, Aqui trago minha experiencia com projetos e stacks que estou utilizando</p>
                 <Contact />
             </div>
-            <img src={bannerImg} alt="" />
         </section>
     )
 }

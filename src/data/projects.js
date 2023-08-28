@@ -1,15 +1,22 @@
 import htmlIcon from "../assets/icons8-html.png";
 import cssIcon from "../assets/icons8-css.png";
 import jsIcon from "../assets/icons8-javascript.png";
+// import jsIcon from "../assets/icons8-javascript.svg";
 import reactIcon from "../assets/icons8-nativo-de-reagir.png";
-// import tailwindIcon from "../assets/icons8-tailwind-css.png";
 import gitIcon from "../assets/icons8-git.png";
-import styledIcon from "../assets/icons8-styled-components-48.png";
+import styledIcon from "../assets/styeldComponents.png";
+import typescriptIcon from "../assets/icons8-typescript-96.png";
+import nodeIcon from "../assets/icons8-node-js.png";
+import ExpressIcon from "../assets/icons8-express-js.png";
+import typeORMIcon from "../assets/typeORM.png";
+import postgraSQLIcon from "../assets/icons8-postgreesql.png";
+import sqlIcon from "../assets/sql.png";
 
-import imgEcommerce from "../assets/Project-img/1.png"
-import imgKenzieEmpresas from "../assets/Project-img/2.png"
-import imgKenzieHub from "../assets/Project-img/3.png"
-import imgHamburgueriaKenzie from "../assets/Project-img/4.png"
+import imgEcommerce from "../assets/Project-img/Ecommerce.png"
+import imgKenzieEmpresas from "../assets/Project-img/KenzieEmpresas.png"
+import imgKenzieHub from "../assets/Project-img/kenziehub.png"
+import imgHamburgueriaKenzie from "../assets/Project-img/hamburgueriakenzie.png"
+import imgKenzieMovies from "../assets/Project-img/KenzieMovies.png"
 
 
 export const projects = [
@@ -20,6 +27,14 @@ export const projects = [
     site: "https://kenziehub-dusky.vercel.app/",
     tech: [htmlIcon, cssIcon, jsIcon, reactIcon, styledIcon],
     img: imgKenzieHub,
+  },
+  {
+    name: "Kenzie Movie",
+    descricao: "Projeto de um site de avalição de filmes. foi desenvolvido em uma equipe de 4 pessoas em uma semana.",
+    repositorio: "https://github.com/Silvio-SC/Kenzie-Movie-Typescript",
+    site: "https://m3-s7-kenzie-movie-entrega-template-grupo-3-t17-raph-lr37ift8n.vercel.app/",
+    tech: [htmlIcon, cssIcon, reactIcon, typescriptIcon, styledIcon],
+    img: imgKenzieMovies,
   },
   {
     name: "Kenzie Empresas",
@@ -37,12 +52,12 @@ export const projects = [
     tech: [htmlIcon, cssIcon, jsIcon],
     img: imgEcommerce,
   },
-  {
-    name: "Hamburgueria Kenzie",
-    descricao: "Site de fastfood feito em React e StyledComponents, onde se pode pesquisar por produtos e adiconar ao carrionho",
-    repositorio: "https://hamburgueriakenzie-zeta.vercel.app/",
-    site: "https://hamburgueriakenzie-zeta.vercel.app/",
-    tech: [htmlIcon, cssIcon, jsIcon, reactIcon, styledIcon],
-    img: imgHamburgueriaKenzie,
-  },
+  // {
+  //   name: "Hamburgueria Kenzie",
+  //   descricao: "Site de fastfood feito em React e StyledComponents, onde se pode pesquisar por produtos e adiconar ao carrionho",
+  //   repositorio: "https://hamburgueriakenzie-zeta.vercel.app/",
+  //   site: "https://hamburgueriakenzie-zeta.vercel.app/",
+  //   tech: [htmlIcon, cssIcon, jsIcon, reactIcon, styledIcon],
+  //   img: imgHamburgueriaKenzie,
+  // },
 ];

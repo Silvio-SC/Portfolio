@@ -14,7 +14,7 @@ export const TechCard = ({name, img, color}) => {
     };
     
     let border = {
-        color: isHover ? color : '#000',
+        color: isHover ? color : '#Fdfdfd',
     }
 
     return (

@@ -4,11 +4,14 @@
     gap: 1.5rem; 
     align-items: center;
     
-    color: var(--white);
-    font-family: Inter, sans-serif;
-    
-    
-    background-color: var(--black);
+    border-radius: 255px;
+
+    padding: 0.5rem;
+    background-color: var(--brand-80);
+    position: sticky;
+    top: .5rem;
+    backdrop-filter: blur(50px);
+    z-index: 1;
 }
 
 .header h1 {

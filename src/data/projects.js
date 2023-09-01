@@ -15,7 +15,6 @@ import sqlIcon from "../assets/sql.png";
 import imgEcommerce from "../assets/Project-img/Ecommerce.png"
 import imgKenzieEmpresas from "../assets/Project-img/KenzieEmpresas.png"
 import imgKenzieHub from "../assets/Project-img/kenziehub.png"
-import imgHamburgueriaKenzie from "../assets/Project-img/hamburgueriakenzie.png"
 import imgKenzieMovies from "../assets/Project-img/KenzieMovies.png"
 
 
@@ -51,13 +50,5 @@ export const projects = [
     site: "https://m1-ecommerce-silvio-sc.vercel.app/",
     tech: [htmlIcon, cssIcon, jsIcon],
     img: imgEcommerce,
-  },
-  // {
-  //   name: "Hamburgueria Kenzie",
-  //   descricao: "Site de fastfood feito em React e StyledComponents, onde se pode pesquisar por produtos e adiconar ao carrionho",
-  //   repositorio: "https://hamburgueriakenzie-zeta.vercel.app/",
-  //   site: "https://hamburgueriakenzie-zeta.vercel.app/",
-  //   tech: [htmlIcon, cssIcon, jsIcon, reactIcon, styledIcon],
-  //   img: imgHamburgueriaKenzie,
-  // },
+  }
 ];

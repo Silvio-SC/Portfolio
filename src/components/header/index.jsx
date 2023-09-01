@@ -9,6 +9,7 @@ export const Header = () => {
             <li><a href='#sectionAboutMe'>Sobre</a></li>
             <li><a href='#stacksSection'>Stack</a></li>
             <li><a href='#sectionProjects'>Projetos</a></li>
+            <li><a href='#footer'>Contato</a></li>
           </ul>
           {/* <Button text="Dark" /> */}
         </header>

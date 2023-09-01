@@ -10,8 +10,12 @@
 }
 
 .bannerSection > div > h2{
-    font: var(--title-1-42px);
-    color: var(--brown)
+    font:  700 clamp(1rem, 10vw, 3.5rem) 'Inter', sans-serif;;
+    color: var(--brown);
+
+    background: linear-gradient(90deg, rgba(179,35,56,1) 0%, rgba(46,17,45,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .bannerSection > div > p{
@@ -31,7 +35,7 @@
     .bannerSection {
         flex-direction: row;
         justify-content: space-between;
-        padding: 3rem 0 0 0;
+        padding: 1rem 0 0 0;
 
         margin-right: 45%;
     }
@@ -42,11 +46,5 @@
     }
     .bannerSection > div > button{
         align-self: start;
-    }
-}
-
-@media screen and (min-width: 1440px){
-    .bannerSection > div > h2{
-        font: var(--title-1-48px);
     }
 }

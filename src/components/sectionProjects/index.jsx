@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 export const SectionProjects = () => {
     return (
         <section className={styles.sectionProjects} id='sectionProjects'>
-          <h2>projetos</h2>
+          <h2>Projetos</h2>
           <div>
           {projects.map((card) => 
             <ProjectCard key={card.name} 

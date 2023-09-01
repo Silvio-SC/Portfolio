@@ -30,6 +30,10 @@
     border: 3px solid #2e112d;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
 :root {
     /* --black: #fff;
     --white: #0C0C0C;

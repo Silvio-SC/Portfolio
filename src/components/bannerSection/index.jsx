@@ -1,6 +1,5 @@
 import styles from './styles.module.css'
 import { username } from '../../data/user.js'
-import bannerImg from "../../assets/banner-img.png";
 import { Contact } from "../footer/contact";
 
 export const BannerSection = () => {
@@ -9,8 +8,8 @@ export const BannerSection = () => {
             <div>
                 <h3>{username}</h3>
                 <h2>Desenvolvedor Web</h2>
-                <p>Seja bem vindo ao meu portfolio, Aqui trago minha experiencia com projetos e stacks que estou utilizando</p>
-                <Contact />
+                <p>Seja bem vindo ao meu portfolio, aqui trago minha experiência com projetos e stacks que estou praticando e desenvolvendo.</p>
+                {/* <Contact /> */}
             </div>
         </section>
     )

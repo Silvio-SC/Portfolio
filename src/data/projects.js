@@ -1,7 +1,8 @@
+// img de icones 
+
 import htmlIcon from "../assets/icons8-html.png";
 import cssIcon from "../assets/icons8-css.png";
 import jsIcon from "../assets/icons8-javascript.png";
-// import jsIcon from "../assets/icons8-javascript.svg";
 import reactIcon from "../assets/icons8-nativo-de-reagir.png";
 import gitIcon from "../assets/icons8-git.png";
 import styledIcon from "../assets/styeldComponents.png";
@@ -12,13 +13,16 @@ import typeORMIcon from "../assets/typeORM.png";
 import postgraSQLIcon from "../assets/icons8-postgreesql.png";
 import sqlIcon from "../assets/sql.png";
 
+// img de projetos
 import imgEcommerce from "../assets/Project-img/Ecommerce.png"
 import imgKenzieEmpresas from "../assets/Project-img/KenzieEmpresas.png"
 import imgKenzieHub from "../assets/Project-img/kenziehub.png"
 import imgKenzieMovies from "../assets/Project-img/KenzieMovies.png"
+import imgKiMovies from "../assets/Project-img/Kimovies.jpg"
+import imgCRUDadmin from "../assets/Project-img/CRUD-Projeto.png"
 
 
-export const projects = [
+export const projectsFront = [
   {
     name: "Kenzie Hub",
     descricao: "Site para alunos da Kenzie onde pode-se colocar suas stack de tecnologia e nivel de proficiência com cada uma.Tem uma pagina de login, registro e uma dashboard com as tecnologias.",
@@ -50,5 +54,24 @@ export const projects = [
     site: "https://m1-ecommerce-silvio-sc.vercel.app/",
     tech: [htmlIcon, cssIcon, jsIcon],
     img: imgEcommerce,
+  }
+];
+
+export const projectsBack = [
+  {
+    name: "Ki Movies",
+    descricao: "A imobiliária Kimóveis, na aplicação é possível realizar o cadastro de imóveis e de usuários interessados na aquisição de propriedades e realizar o agendamento e consultar horários de visitas às propriedades disponíveis.",
+    repositorio: "https://github.com/Silvio-SC/m4-kimovies-Silvio-SC",
+    site: "",
+    tech: [typescriptIcon, nodeIcon, ExpressIcon, typeORMIcon, postgraSQLIcon, sqlIcon],
+    img: imgKiMovies,
+  },
+  {
+    name: "CRUD admin",
+    descricao: "Faz o controle de usuários e cursos em que esses usuários serão matriculados. Também tem um controle de acessos, onde alguns recursos podem ser acessados por usuários logados, e outros apenas administradores podem acessar.",
+    repositorio: "https://github.com/Silvio-SC/crud_admin_m4_Silvio_SC",
+    site: "",
+    tech: [typescriptIcon, nodeIcon, ExpressIcon, postgraSQLIcon, sqlIcon],
+    img: imgCRUDadmin,
   }
 ];

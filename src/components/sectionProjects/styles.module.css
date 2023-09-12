@@ -9,6 +9,10 @@
     font: var(--title-2-40px);
 }
 
+.sectionProjects > h3 {
+    font: var(--title-3);
+}
+
 .sectionProjects > div {
     display: flex;
     flex-direction: column;

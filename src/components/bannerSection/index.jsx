@@ -8,7 +8,7 @@ export const BannerSection = () => {
             <div>
                 <h3>{username}</h3>
                 <h2>Desenvolvedor Web</h2>
-                <p>Seja bem vindo ao meu portfolio, aqui trago minha experiência com projetos e stacks que estou praticando e desenvolvendo.</p>
+                {/* <p>Seja bem vindo ao meu portfolio, aqui trago minha experiência com projetos e stacks que estou praticando e desenvolvendo.</p> */}
                 {/* <Contact /> */}
             </div>
         </section>

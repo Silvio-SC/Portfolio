@@ -1,17 +1,22 @@
 // img de icones 
 
-import htmlIcon from "../assets/icons8-html.png";
-import cssIcon from "../assets/icons8-css.png";
-import jsIcon from "../assets/icons8-javascript.png";
-import reactIcon from "../assets/icons8-nativo-de-reagir.png";
-import gitIcon from "../assets/icons8-git.png";
-import styledIcon from "../assets/styeldComponents.png";
-import typescriptIcon from "../assets/icons8-typescript-96.png";
-import nodeIcon from "../assets/icons8-node-js.png";
-import ExpressIcon from "../assets/icons8-express-js.png";
-import typeORMIcon from "../assets/typeORM.png";
-import postgraSQLIcon from "../assets/icons8-postgreesql.png";
-import sqlIcon from "../assets/sql.png";
+import htmlIcon from "../assets/tech-icones/icons8-html.png";
+import cssIcon from "../assets/tech-icones/icons8-css.png";
+import jsIcon from "../assets/tech-icones/icons8-javascript.png";
+import reactIcon from "../assets/tech-icones/icons8-nativo-de-reagir.png";
+import gitIcon from "../assets/tech-icones/icons8-git.png";
+import styledIcon from "../assets/tech-icones/styeldComponents.png";
+import typescriptIcon from "../assets/tech-icones/icons8-typescript-96.png";
+import nodeIcon from "../assets/tech-icones/icons8-node-js.png";
+import ExpressIcon from "../assets/tech-icones/icons8-express-js.png";
+import typeORMIcon from "../assets/tech-icones/typeORM.png";
+import postgraSQLIcon from "../assets/tech-icones/icons8-postgreesql.png";
+import sqlIcon from "../assets/tech-icones/sql.png";
+import pythonIcon from "../assets/tech-icones/python.png";
+import DjangoIcon from "../assets/tech-icones/django.png";
+import SQLiteIcon from "../assets/tech-icones/sqlite.png";
+import tailwindIcon from "../assets/tech-icones/icons8-tailwind-css.png";
+
 
 // img de projetos
 import imgEcommerce from "../assets/Project-img/Ecommerce.png"
@@ -20,6 +25,12 @@ import imgKenzieHub from "../assets/Project-img/kenziehub.png"
 import imgKenzieMovies from "../assets/Project-img/KenzieMovies.png"
 import imgKiMovies from "../assets/Project-img/Kimovies.jpg"
 import imgCRUDadmin from "../assets/Project-img/CRUD-Projeto.png"
+import imgKanvas from "../assets/Project-img/Kanvas.png"
+import imgBuster from "../assets/Project-img/KenzieBuster.jpg"
+import imgIBNA from "../assets/Project-img/IBNA.png"
+
+
+const nextjsIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg";
 
 
 export const projectsFront = [
@@ -39,13 +50,21 @@ export const projectsFront = [
     tech: [htmlIcon, cssIcon, reactIcon, typescriptIcon, styledIcon],
     img: imgKenzieMovies,
   },
+  // {
+  //   name: "Kenzie Empresas",
+  //   descricao: "Site que contém empresas e funcionários, em que estes podem se cadastrar e ser contratados para uma das empresas. Existe a pagina de login e cadastro, a dashboard do usuário comum e a dashboard do administrador. A Api é local, por isso não é possível visualizar o site.",
+  //   repositorio: "https://github.com/Silvio-SC/Projeto-Frotend-Empresas__Silvio-SC",
+  //   site: "",
+  //   tech: [htmlIcon, cssIcon, jsIcon],
+  //   img: imgKenzieEmpresas,
+  // },
   {
-    name: "Kenzie Empresas",
-    descricao: "Site que contém empresas e funcionários, em que estes podem se cadastrar e ser contratados para uma das empresas. Existe a pagina de login e cadastro, a dashboard do usuário comum e a dashboard do administrador. A Api é local, por isso não é possível visualizar o site.",
-    repositorio: "https://github.com/Silvio-SC/Projeto-Frotend-Empresas__Silvio-SC",
-    site: "",
-    tech: [htmlIcon, cssIcon, jsIcon],
-    img: imgKenzieEmpresas,
+    name: "Site de Igreja ",
+    descricao: "Site de igreja de um trabalho freelancer que fiz em Next.Js e Tailwind.",
+    repositorio: "https://github.com/Silvio-SC/Igreja-Batista-Nova-Aurora",
+    site: "https://igreja-batista-nova-aurora.vercel.app/",
+    tech: [nextjsIcon, tailwindIcon, typescriptIcon],
+    img: imgIBNA,
   },
   {
     name: "Ecommerce ",
@@ -73,5 +92,21 @@ export const projectsBack = [
     site: "",
     tech: [typescriptIcon, nodeIcon, ExpressIcon, postgraSQLIcon, sqlIcon],
     img: imgCRUDadmin,
+  },
+  {
+    name: "Kanvas",
+    descricao: "API Rest para o gerenciamento de cursos e aulas de uma escola de modalidade EAD.",
+    repositorio: "https://github.com/Silvio-SC/Kanvas-Projeto-Final",
+    site: "",
+    tech: [pythonIcon, DjangoIcon, postgraSQLIcon],
+    img: imgKanvas,
+  },
+  {
+    name: "Kenzie Buster",
+    descricao: "aplicação para gerenciar usuários, filmes e compras, incluindo autenticação e permissões de rotas para diferentes tipos de usuário.",
+    repositorio: "https://github.com/Silvio-SC/Kenzie-Buster",
+    site: "",
+    tech: [pythonIcon, DjangoIcon, SQLiteIcon],
+    img: imgBuster,
   }
 ];

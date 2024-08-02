@@ -18,6 +18,7 @@ import SQLiteIcon from "../assets/tech-icones/sqlite.png";
 import tailwindIcon from "../assets/tech-icones/icons8-tailwind-css.png";
 
 
+
 // img de projetos
 import imgEcommerce from "../assets/Project-img/Ecommerce.png"
 import imgKenzieEmpresas from "../assets/Project-img/KenzieEmpresas.png"
@@ -28,9 +29,12 @@ import imgCRUDadmin from "../assets/Project-img/CRUD-Projeto.png"
 import imgKanvas from "../assets/Project-img/Kanvas.png"
 import imgBuster from "../assets/Project-img/KenzieBuster.jpg"
 import imgIBNA from "../assets/Project-img/IBNA.png"
+import imgTrainingLocation from "../assets/Project-img/FightGym.jpg"
 
 
 const nextjsIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-plain.svg";
+const javaIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg";
+const SpringIcon = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg";
 
 
 export const projectsFront = [
@@ -101,12 +105,20 @@ export const projectsBack = [
     tech: [pythonIcon, DjangoIcon, postgraSQLIcon],
     img: imgKanvas,
   },
+  // {
+  //   name: "Kenzie Buster",
+  //   descricao: "aplicação para gerenciar usuários, filmes e compras, incluindo autenticação e permissões de rotas para diferentes tipos de usuário.",
+  //   repositorio: "https://github.com/Silvio-SC/Kenzie-Buster",
+  //   site: "",
+  //   tech: [pythonIcon, DjangoIcon, SQLiteIcon],
+  //   img: imgBuster,
+  // },
   {
-    name: "Kenzie Buster",
-    descricao: "aplicação para gerenciar usuários, filmes e compras, incluindo autenticação e permissões de rotas para diferentes tipos de usuário.",
-    repositorio: "https://github.com/Silvio-SC/Kenzie-Buster",
+    name: "training location API",
+    descricao: "Aplicação construida em Java e Spring Boot para gerenciar localização de locais de treinamentos de lutas. Conta com Spring Security para autenticação e permissões de rotas.",
+    repositorio: "https://github.com/Silvio-SC/training-location-API",
     site: "",
-    tech: [pythonIcon, DjangoIcon, SQLiteIcon],
-    img: imgBuster,
+    tech: [javaIcon, SpringIcon, postgraSQLIcon],
+    img: imgTrainingLocation,
   }
 ];
